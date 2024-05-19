@@ -13,7 +13,7 @@ public class WebConfig implements WebMvcConfigurer {
     public void addCorsMappings(CorsRegistry registry) {
 
         registry.addMapping("/**")
-                .allowedOrigins("https://643ccf3b47e74170918ce945--medfrontend.netlify.app").allowedOrigins("http://localhost:8080");
+                .allowedOrigins("https://medfrontend.netlify.app").allowedOrigins("http://localhost:8080");
 
 
         // Add more mappings...
